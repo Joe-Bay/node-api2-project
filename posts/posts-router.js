@@ -39,7 +39,11 @@ router.post('/:id/comments', (req, res) => { // creates a comment for the post w
         })
         .catch(err => {
             res.status(500).json({message: "there was an error while creating this comment"})
-        })
+        })            
+        
+
+    
+
 
     
 
